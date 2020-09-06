@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+    padding: 20px 40px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.logo {
+    width: 36px;
+    vertical-align: middle;
+}
+
+.title {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+.version {
+    font-size: 12px;
+    vertical-align: top;
+}

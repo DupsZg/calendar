@@ -1,0 +1,6 @@
+.app-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: calc(100% - 100px);
+}

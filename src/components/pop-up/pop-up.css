@@ -1,0 +1,76 @@
+#pop-up {
+    display: none;
+    height: 25%;
+    width: 20%;
+    z-index: 10001;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    color: #a0a096;
+    border: 1px solid #a0a096;
+}
+
+#pop-up.visible,
+#modal-background.visible {
+    display: flex;
+}
+
+#modal-background {
+    display: none;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    background-color: rgba(0,0,0, 0.7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputField {
+    height: 7%;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #a0a096;
+    padding: 20px 10px;
+}
+
+.label {
+    display: inline-block;
+    text-align: left;
+    margin: 15px;
+}
+
+.button-popup {
+    height: 48px;
+    width: 40%;
+    background-color: white;
+    border: 1px solid #a0a096;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 24px;
+    color: #a0a096;
+    outline: none;
+}
+
+.popup-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#cancel {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 28px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
