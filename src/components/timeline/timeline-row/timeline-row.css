@@ -11,6 +11,19 @@
     border-radius: 5px;
 }
 
+.timeline-row-break, .timeline-row-occupied {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-row-break > span , .timeline-row-occupied > span {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .disabled-timeline-row {
     background-color: #b3b3b3;
     border-radius: 5px;

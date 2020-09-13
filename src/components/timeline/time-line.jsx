@@ -75,7 +75,7 @@ const Timeline = (props) => {
         setSelectedDate(props.selectedDate);
         setWorkingDates(dates);
     }, [props.selectedDate]);
-debugger;
+
     return (
         <ul className="time-line-list">
             {workingDates.map((entry, index) => <TimelineRow key={index} isWorkingDay={entry.isWorkingDay} isMorningShift={entry.isMorningShift}

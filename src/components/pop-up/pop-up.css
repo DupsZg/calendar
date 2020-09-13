@@ -43,16 +43,16 @@
 }
 
 .button-popup {
-    height: 48px;
+    height: 36px;
     width: 40%;
     background-color: white;
     border: 1px solid #a0a096;
     cursor: pointer;
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 24px;
+    border-radius: 5px;
     color: #a0a096;
     outline: none;
 }

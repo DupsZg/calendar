@@ -9,6 +9,16 @@
     vertical-align: middle;
 }
 
+.user {
+    width: 36px;
+    vertical-align: middle;
+    position: relative;
+    right: 0px;
+    left: calc(100% - 220px);
+    cursor: pointer;
+    user-select: none;
+}
+
 .title {
     display: inline;
     vertical-align: middle;

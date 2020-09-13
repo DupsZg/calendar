@@ -6,13 +6,27 @@ import { useEffect } from 'react';
 
 const TimelineRow = (props) => {
     const[statusClass, setStatusClass] = useState('');
+    const[textContent, setTextContent] = useState('');
+    
+
+    useEffect(() => {
+        let content = '';
+
+        if (props.isBreak && props.isMorningShift) {
+            content = 'PAUZA';
+        } else if (props.isOccupied && props.isMorningShift) {
+            content = 'REZERVIRAN TERMIN';
+        } else if (props.isMorningShift) {
+            content = '';
+        }
+
+        setTextContent(content);
+    }, [props.date]);
 
     useEffect(() => {
         let timelineRowClass = 'disabled-timeline-row';
 
         if (props.isWorkingDay) {
-            //timelineRowClass = 'timeline-row';
-
             if (props.isBreak && props.isMorningShift) {
                 timelineRowClass = 'timeline-row-break';
             } else if (props.isOccupied && props.isMorningShift) {
@@ -55,17 +69,20 @@ const TimelineRow = (props) => {
         }
 
         setStatusClass('timeline-row-occupied');
+        setTextContent('REZERVIRAN TERMIN');
 
         props.reservationHandler(props.date, onCancel);
     };
 
     const onCancel = () => {
         setStatusClass('timeline-row');
+        setTextContent('');
     };
 
     return (
         <div className={statusClass} onClick={clickHandler} 
-             time={appendLeadingZero(props.date.getHours()) + ":" + appendLeadingZero(props.date.getMinutes())}>
+        time={appendLeadingZero(props.date.getHours()) + ":" + appendLeadingZero(props.date.getMinutes())}>
+            <span>{textContent}</span>
         </div>
     )
 }

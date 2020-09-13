@@ -4,6 +4,7 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 
 import Header from './components/header/header';
+import Info from './components/info/info';
 import {Aside} from './components/aside/aside';
 import {Main} from './components/main/main';
 import {PopUp} from './components/pop-up/pop-up';
@@ -76,6 +77,7 @@ class App extends Component {
               onChange = {this.onChange}
               value = {this.state.date}
             />
+            <Info/>
           </Aside>
           <Timeline selectedDate = {this.state.date} reservationHandler={this.onReservation}/>
         </Main>
