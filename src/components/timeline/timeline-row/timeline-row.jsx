@@ -12,12 +12,14 @@ const TimelineRow = (props) => {
     useEffect(() => {
         let content = '';
 
-        if (props.isBreak && props.isMorningShift) {
-            content = 'PAUZA';
-        } else if (props.isOccupied && props.isMorningShift) {
-            content = 'REZERVIRAN TERMIN';
-        } else if (props.isMorningShift) {
-            content = '';
+        if (props.isWorkingDay) {
+            if (props.isBreak && props.isMorningShift) {
+                content = 'PAUZA';
+            } else if (props.isOccupied && props.isMorningShift) {
+                content = 'REZERVIRAN TERMIN';
+            } else if (props.isMorningShift) {
+                content = '';
+            }
         }
 
         setTextContent(content);

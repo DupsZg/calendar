@@ -9,7 +9,7 @@ const Info = () => (
         <div>08:00 - 14:00</div>
         <div className="info-div">Neparni dani</div>
         <div>13:00 - 19:00</div>
-        <div className="info-office">Ordinacija dr. Mirte Domjanić</div>
+        <div className="info-office">Ordinacija dr. Mirta Domjanić</div>
     </div>
 );
 
