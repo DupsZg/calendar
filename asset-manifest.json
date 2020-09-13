@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/calendar/static/css/main.5e9216f5.chunk.css",
-    "main.js": "/calendar/static/js/main.e938ef4b.chunk.js",
-    "main.js.map": "/calendar/static/js/main.e938ef4b.chunk.js.map",
+    "main.css": "/calendar/static/css/main.5ed41531.chunk.css",
+    "main.js": "/calendar/static/js/main.e3312b60.chunk.js",
+    "main.js.map": "/calendar/static/js/main.e3312b60.chunk.js.map",
     "runtime-main.js": "/calendar/static/js/runtime-main.914f0415.js",
     "runtime-main.js.map": "/calendar/static/js/runtime-main.914f0415.js.map",
     "static/css/2.8dbe6964.chunk.css": "/calendar/static/css/2.8dbe6964.chunk.css",
-    "static/js/2.25abcd3a.chunk.js": "/calendar/static/js/2.25abcd3a.chunk.js",
-    "static/js/2.25abcd3a.chunk.js.map": "/calendar/static/js/2.25abcd3a.chunk.js.map",
+    "static/js/2.e1f61128.chunk.js": "/calendar/static/js/2.e1f61128.chunk.js",
+    "static/js/2.e1f61128.chunk.js.map": "/calendar/static/js/2.e1f61128.chunk.js.map",
     "index.html": "/calendar/index.html",
-    "precache-manifest.88d20cd57961d4fb731a9ac7ee934c07.js": "/calendar/precache-manifest.88d20cd57961d4fb731a9ac7ee934c07.js",
+    "precache-manifest.e67f850078fd7577049faec7fcd2e695.js": "/calendar/precache-manifest.e67f850078fd7577049faec7fcd2e695.js",
     "service-worker.js": "/calendar/service-worker.js",
     "static/css/2.8dbe6964.chunk.css.map": "/calendar/static/css/2.8dbe6964.chunk.css.map",
-    "static/css/main.5e9216f5.chunk.css.map": "/calendar/static/css/main.5e9216f5.chunk.css.map",
-    "static/js/2.25abcd3a.chunk.js.LICENSE.txt": "/calendar/static/js/2.25abcd3a.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/calendar/static/media/logo.7d265621.svg"
+    "static/css/main.5ed41531.chunk.css.map": "/calendar/static/css/main.5ed41531.chunk.css.map",
+    "static/js/2.e1f61128.chunk.js.LICENSE.txt": "/calendar/static/js/2.e1f61128.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/calendar/static/media/logo.7d265621.svg",
+    "static/media/user.svg": "/calendar/static/media/user.03f89b96.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.914f0415.js",
     "static/css/2.8dbe6964.chunk.css",
-    "static/js/2.25abcd3a.chunk.js",
-    "static/css/main.5e9216f5.chunk.css",
-    "static/js/main.e938ef4b.chunk.js"
+    "static/js/2.e1f61128.chunk.js",
+    "static/css/main.5ed41531.chunk.css",
+    "static/js/main.e3312b60.chunk.js"
   ]
 }
